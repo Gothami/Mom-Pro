@@ -1,0 +1,106 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (javaClasses.cpp:129), pid=2036, tid=3400
+#  fatal error: Invalid layout of preloaded class
+#
+# JRE version: 7.0_21-b11
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (23.21-b01 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00000000027cd800):  JavaThread "Unknown thread" [_thread_in_vm, id=3400, stack(0x0000000002680000,0x0000000002780000)]
+
+Stack: [0x0000000002680000,0x0000000002780000]
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x00000000027cd800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=3400, stack(0x0000000002680000,0x0000000002780000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.010 loading class 0x0000000002817c50 done
+Event: 0.010 loading class 0x0000000002817950 done
+Event: 0.010 loading class 0x0000000002817920
+Event: 0.010 loading class 0x000000000281fd00
+Event: 0.010 loading class 0x000000000281fd00 done
+Event: 0.010 loading class 0x000000000281fd80
+Event: 0.010 loading class 0x000000000281fd80 done
+Event: 0.010 loading class 0x000000000b68e9a0
+Event: 0.010 loading class 0x000000000b68e9a0 done
+Event: 0.011 loading class 0x0000000002817920 done
+
+
+Dynamic libraries:
+0x000007f710fe0000 - 0x000007f711013000 	C:\Program Files\Java\jre7\bin\javaw.exe
+0x000007f861080000 - 0x000007f86123e000 	C:\Windows\SYSTEM32\ntdll.dll
+0x000007f85fb10000 - 0x000007f85fc46000 	C:\Windows\system32\KERNEL32.DLL
+0x000007f85f370000 - 0x000007f85f463000 	C:\Windows\system32\KERNELBASE.dll
+0x000007f860ca0000 - 0x000007f860d7e000 	C:\Windows\system32\ADVAPI32.dll
+0x000007f85fd50000 - 0x000007f85fe9c000 	C:\Windows\system32\USER32.dll
+0x000007f85cfe0000 - 0x000007f85d249000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9200.16384_none_418c2a697189c07f\COMCTL32.dll
+0x000007f85fc90000 - 0x000007f85fd35000 	C:\Windows\system32\msvcrt.dll
+0x000007f85f910000 - 0x000007f85f958000 	C:\Windows\SYSTEM32\sechost.dll
+0x000007f860f40000 - 0x000007f861080000 	C:\Windows\system32\RPCRT4.dll
+0x000007f860850000 - 0x000007f860990000 	C:\Windows\system32\GDI32.dll
+0x000007f85fc50000 - 0x000007f85fc89000 	C:\Windows\system32\IMM32.DLL
+0x000007f860e20000 - 0x000007f860f34000 	C:\Windows\system32\MSCTF.dll
+0x0000000054590000 - 0x0000000054661000 	C:\Program Files\Java\jre7\bin\msvcr100.dll
+0x0000000053e60000 - 0x0000000054581000 	C:\Program Files\Java\jre7\bin\server\jvm.dll
+0x000007f85b920000 - 0x000007f85b929000 	C:\Windows\SYSTEM32\WSOCK32.dll
+0x000007f855b80000 - 0x000007f855ba0000 	C:\Windows\SYSTEM32\WINMM.dll
+0x000007f85f960000 - 0x000007f85f967000 	C:\Windows\system32\PSAPI.DLL
+0x000007f8607f0000 - 0x000007f860848000 	C:\Windows\system32\WS2_32.dll
+0x000007f855b40000 - 0x000007f855b72000 	C:\Windows\SYSTEM32\WINMMBASE.dll
+0x000007f85fd40000 - 0x000007f85fd49000 	C:\Windows\system32\NSI.dll
+0x0000000055590000 - 0x000000005559f000 	C:\Program Files\Java\jre7\bin\verify.dll
+0x0000000053e30000 - 0x0000000053e58000 	C:\Program Files\Java\jre7\bin\java.dll
+0x0000000053e10000 - 0x0000000053e25000 	C:\Program Files\Java\jre7\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=Cp1252 -Xbootclasspath:E:\Software\Download For Ubuntu Software\New folder\adt-bundle-windows-x86_64-20131030\sdk\platforms\android-19\android.jar 
+java_command: Metrix
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:/Program Files/Java/jdk1.7.0_21/bin/../jre/bin/server;C:/Program Files/Java/jdk1.7.0_21/bin/../jre/bin;C:/Program Files/Java/jdk1.7.0_21/bin/../jre/lib/amd64;C:\Program Files\Java\jdk1.7.0_21\bin;E:\Software\Download For Ubuntu Software\New folder\adt-bundle-windows-x86_64-20131030\eclipse;
+USERNAME=Kasun Lakmal
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 8 , 64 bit Build 9200 
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 58 stepping 9, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, ht, tsc, tscinvbit, tscinv
+
+Memory: 4k page, physical 8266292k(5821776k free), swap 12984884k(10215208k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (23.21-b01) for windows-amd64 JRE (1.7.0_21-b11), built on Apr  4 2013 08:11:28 by "java_re" with unknown MS VC++:1600
+
+time: Thu May 15 06:17:46 2014
+elapsed time: 0 seconds
+
